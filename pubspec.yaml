@@ -1,0 +1,38 @@
+name: ifit
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/activity.jpg
+    - assets/images/food.jpg
+    - assets/images/sleep.jpg
+
+  # Pastikan folder assets benar dan digunakan bila ada gambar atau file lain
+  # Jika tidak ada, bisa dihapus atau dikosongkan
+  # - assets/images/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
